@@ -17,58 +17,44 @@
 
 // a) Create a test with expect statements for each of the variables provided.
 
-var num1 = 15
+var num1 = 15;
 // Expected output: "15 is divisible by three"
 
-var num2 = 0
+var num2 = 0;
 // Expected output: "0 is divisible by three"
 
-var num3 = -7
+var num3 = -7;
 // Expected output: "-7 is not divisble by three"
 
-
-
-
-
 // b) Create the function that makes the test pass.
-
-
-
-
 
 // --------------------2) Create a function that takes in an array of words and returns an array with all the words capitalized.
 
 // a) Create a test with expect statements for each of the variables provided.
 
-var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"]
+var randomNouns1 = ["streetlamp", "potato", "teeth", "conclusion", "nephew"];
 // Expected output: ["Streetlamp", "Potato", "Teeth", "Conclusion", "Nephew"]
 
-var randomNouns2 = ["temperature", "database", "chopsticks", "mango", "deduction"]
+var randomNouns2 = [
+  "temperature",
+  "database",
+  "chopsticks",
+  "mango",
+  "deduction",
+];
 // Expected output: ["Temperature", "Database", "Chopsticks", "Mango", "Deduction"]
 
-
-
-
-
 // b) Create the function that makes the test pass.
-
-
-
-
 
 // --------------------3) Create a function that takes in a string and logs the index of the first vowel.
 
 // a) Create a test with expect statements for each of the variables provided.
 
-var vowelTester1 = "learn"
+var vowelTester1 = "learn";
 // Expected output: 1
-var vowelTester2 = "academy"
+var vowelTester2 = "academy";
 // Expected output: 0
-var vowelTester3 = "challenge"
+var vowelTester3 = "challenge";
 // Expected output: 2
-
-
-
-
 
 // b) Create the function that makes the test pass.
