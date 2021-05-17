@@ -27,8 +27,8 @@
       // No need to change anything ABOVE this line ^
 
       class App extends React.Component {
-        constructor(props) {
-          super(props);
+        constructor() {
+          super();
           this.state = {
             moods: ["😃", "😴", "😍", "🥺", "😡", "🤓", "🤪"],
             currentMood: "",
@@ -37,7 +37,7 @@
 
         handleMoodOptions = () => {
           let randomIndex = Math.floor(Math.random() * this.state.moods.length);
-          this.setState({ currentMood: moods[randomIndex] });
+          this.setState({ currentMood: this.state.moods[randomIndex] });
         };
 
         render() {
@@ -51,7 +51,7 @@
                 {this.state.currentMood}
               </div>
 
-              <button onClick={handleMoodOptions}>
+              <button onClick={this.handleMoodOptions}>
                 Click Here For Next Mood option
               </button>
             </>
